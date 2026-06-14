@@ -48,7 +48,11 @@ The macro validates emails, extracts states from addresses, formats records into
 
 
 
-\## Features
+\## Screenshots
+
+![excel-mc-data-cleaner dashboard](docs/screenshots/app.png)
+
+## Features
 
 
 
