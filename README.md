@@ -32,6 +32,10 @@ The macro validates emails, extracts states from addresses, formats records into
 
 \## Screenshots
 
+## Screenshots
+
+![Application screenshot](docs/screenshots/app.png)
+
 ## Features
 
 \- Automatic email validation
