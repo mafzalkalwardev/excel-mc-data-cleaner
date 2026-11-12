@@ -17,20 +17,18 @@ Documented · MIT licensed · Maintained
 ## 🐍 Contribution graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/excel-mc-data-cleaner/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/excel-mc-data-cleaner/output/snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/excel-mc-data-cleaner/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/excel-mc-data-cleaner/gh-pages/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/excel-mc-data-cleaner/gh-pages/output/snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/excel-mc-data-cleaner/gh-pages/output/snake.svg" />
 </picture>
 
 ---
 
-\# Excel MC Data Cleaner
 
 An Excel VBA automation macro designed for cleaning and formatting carrier dispatch data automatically.
 
 The macro validates emails, extracts states from addresses, formats records into structured tables, and prepares carrier data for dispatch workflows.
 
-\## Screenshots
 
 ## Screenshots
 
@@ -38,97 +36,74 @@ The macro validates emails, extracts states from addresses, formats records into
 
 ## Features
 
-\- Automatic email validation
+- Automatic email validation
+- State extraction from addresses
+- Carrier data cleaning
+- Excel table formatting
+- Automated worksheet generation
+- Phone and email processing
+- Dispatch workflow support
+- VBA automation
 
-\- State extraction from addresses
+## Tech Stack
 
-\- Carrier data cleaning
+- Excel VBA
+- Microsoft Excel
+- Data Cleaning Automation
 
-\- Excel table formatting
+## Features Overview
 
-\- Automated worksheet generation
-
-\- Phone and email processing
-
-\- Dispatch workflow support
-
-\- VBA automation
-
-\## Tech Stack
-
-\- Excel VBA
-
-\- Microsoft Excel
-
-\- Data Cleaning Automation
-
-\## Features Overview
-
-\### Email Validation
+### Email Validation
 
 Rows with invalid or missing emails are automatically skipped.
 
-\### State Extraction
+### State Extraction
 
 Automatically extracts U.S. state abbreviations from addresses.
 
-\### Automatic Table Formatting
+### Automatic Table Formatting
 
 Creates a formatted Excel table with cleaned records.
 
-\### Dispatch Data Processing
+### Dispatch Data Processing
 
 Useful for:
 
-\- carrier databases
+- carrier databases
+- dispatch workflows
+- CRM cleanup
+- lead processing
 
-\- dispatch workflows
-
-\- CRM cleanup
-
-\- lead processing
-
-\## Output Columns
+## Output Columns
 
 The macro generates:
 
 | MC Number | Legal Name | States | Address | Phone | Email |
-
 |-----------|------------|--------|---------|-------|-------|
 
-\## Project Structure
+## Project Structure
 
 ```text
-
 excel-mc-data-cleaner/
 
 │
-
-├── mc\_formatting\_macro.bas
-
+├── mc_formatting_macro.bas
 ├── README.md
-
 └── .gitignore
-
 ```
 
-\## How to Use
+## How to Use
 
-1\. Open Excel
-
-2\. Press `ALT + F11`
-
-3\. Import the `.bas` file
-
-4\. Run:
+1. Open Excel
+2. Press `ALT + F11`
+3. Import the `.bas` file
+4. Run:
 
 ```vba
-
-MC\_formatting
-
+MC_formatting
 ```
 
-\## Author
+## Author
 
 Muhammad Afzal Kalwar
 
